@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
 .dropdown:hover > .dropdown-menu { 
     display: block; 
 } 
@@ -38,4 +40,70 @@ a.nav-item.nav-link.active, .navbar-light .navbar-nav .active>.nav-link, .navbar
     background: #ff3a4c;
     border-color: #ff3a4c;
     color: #ffffff;
+}
+.mainSlider{
+    font-family: 'Muli', sans-serif;
+    color: #ffffff;
+    font-size: 625%;
+    text-shadow: none;
+    line-height: 1.5;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: -4px;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 800;
+}
+
+.descSlider {
+    color: #ffffff;
+    font-size: 137.5%;
+    text-shadow: none;
+    line-height: 1.7;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0px;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: 700;
+}
+.carousel-indicators--round li {
+    border-radius: 10px;
+    margin: 1px 5px;
+    height: 10px;
+    max-width: 10px;
+    background: white;
+    transition: .5s;
+
+}
+.carousel-indicators--round li:hover{
+    background-color: #ff3a4c;
+}
+.carousel-indicators .active {
+    background-color: #ff3a4c;
+    max-width: 12px;
+    margin: 0 3px;
+    height: 12px;
+}
+.btnDonate{
+    font-style: normal;
+    font-size: 112.5%;
+    font-weight: 800;
+    font-family: 'Muli', sans-serif;
+    border-radius: 30px;
+    line-height: 1.5;
+    background: #ff3a4c;
+    color: #ffffff;
+    padding: 14px 48px 14px;
+    transition: .8s;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.btnDonate:hover{
+    background: #fff;
+    color: black;
 }
