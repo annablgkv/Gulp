@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Muli');
-
+@import url('https://fonts.googleapis.com/css?family=Caveat');
 .dropdown:hover > .dropdown-menu { 
     display: block; 
 } 
@@ -106,4 +106,128 @@ a.nav-item.nav-link.active, .navbar-light .navbar-nav .active>.nav-link, .navbar
 .btnDonate:hover{
     background: #fff;
     color: black;
+}
+.MissionText{
+    font-size:30px;
+    font-style: oblique;
+    font-weight: 400;
+    font-family: 'Caveat', handwriting;
+    letter-spacing: 0px;
+    color: #32e9bc;
+    text-align: center;
+    margin-top: 130px;
+}
+.conserve{
+    font-size: 40px;
+    font-family: Muli, sans-serif;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #333333;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.nature {
+    background-image: url('../img/homebg1-1.jpg');
+    background-position: center top;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.natureDesc{
+    position: relative;
+    float: left;
+    width: 260px;
+    margin-right: 25px;
+    margin-left: 40px;
+
+}
+.natureDesc h3{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 1.25;
+    font-family: Muli, sans-serif;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    transition: .5s;
+    cursor: pointer;
+
+}
+.natureDesc h3:hover{
+    color:#777777;
+}
+.floatTextLeft {
+    text-align: left;
+}
+
+.floatTextRight{
+    text-align: right;
+}
+
+.natureDesc p{
+    color: #646464;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0px;
+}
+
+.iconsCircle{
+    position: relative;
+    float: left;
+    background: #04e2f6;
+    border-radius: 50%;
+    color: white;
+    height: 83px;
+    width: 83px;
+
+}
+.iconsCircle i{
+    text-align: center;
+    line-height: 83px;
+    display: block;
+    font-size: 20px;
+}
+
+.descRight{
+    margin-left: 25px;
+    
+}
+.colorIcon1{
+    background: #04E2F6;
+}
+.colorIcon2{
+    background: #9AEA3E;
+}
+.colorIcon3{
+    background: #32E9BC;
+}
+.colorIcon4{
+    background: #BBE31F;
+}
+.colorIcon5{
+    background: #70EA88;
+}
+.colorIcon6{
+    background: #F4DC59;
+}
+
+.colorText1{
+    color: #04E2F6;
+}
+.colorText2{
+    color: #9AEA3E;
+}
+.colorText3{
+    color: #32E9BC;
+}
+.colorText4{
+    color: #BBE31F;
+}
+.colorText5{
+    color: #70EA88;
+}
+.colorText6{
+    color: #F4DC59;
 }
