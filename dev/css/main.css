@@ -231,3 +231,166 @@ a.nav-item.nav-link.active, .navbar-light .navbar-nav .active>.nav-link, .navbar
 .colorText6{
     color: #F4DC59;
 }
+
+/* styles breadcrumbs (start) */
+.breadcrumbs {
+    background: #95ecf4;
+}
+
+.breadcrumbsLinks {
+    position: relative;
+    float: right;
+    padding: 20px 0 20px;
+}
+
+.breadcrumbsLinks p, .breadcrumbsLinks a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #646464;
+    text-decoration: none;
+    line-height: 1.75;
+    margin-bottom: 0px;
+    transition: .5s;
+}
+
+.breadcrumbsLinks a:hover {
+    color: #ff3a4c;
+}
+
+.breadcrumbsLinks span {
+    color: #ff3a4c;
+}
+/* styles breadcrumbs (end) */
+
+/* styles footer (start) */
+.footerInfo, .footerIcons, .footerRights {
+    text-align: center;
+}
+
+.footerInfo img {
+    margin-bottom: 30px;
+}
+
+.footerInfo p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #646464;
+    margin-bottom: 5px;
+}
+
+.footerInfo span, .footerInfo a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 800;
+    color: #646464;
+    transition: .5s;
+}
+
+.footerInfo a:hover {
+    color: #ff3a4c;
+    text-decoration: none;
+}
+
+a.footerEmail {
+    color: #ca0012;
+}
+
+.footerIcons {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footerIcons a {
+    font-size: 1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #646464;
+    transition: .5s;
+}
+
+.footerIcons a:hover {
+    color: #ff3a4c;
+}
+
+.footerRights {
+    margin-bottom: 60px;
+}
+
+.footerRights p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgb(49,49,49);
+}
+/* styles footer (end) */
+
+/* page 404 (start) */
+.error404Title, .error404Desc {
+    text-align: center;
+}
+
+.error404Title h1 {
+    font-family: Muli, sans-serif;
+    font-size: 5rem;
+    color: #04e2f6;
+    font-weight: 900;
+    margin-top: 80px; 
+}
+
+.error404Title h2 {
+    font-family: Muli, sans-serif;
+    font-size: 40px;
+    color: #333333;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.error404Desc {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.error404Desc h3 {
+    font-family: Muli, sans-serif;
+    font-size: 22px;
+    color: #333333;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+
+.btnSearch{
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 30px;
+    line-height: 1.5;
+    background: #04e2f6;
+    border-color: #04e2f6;
+    color: #ffffff;
+    padding: 14px 18px 14px;
+    border: 1px solid;
+    transition: .5s;
+}
+
+.btnSearch:hover{
+    background: #ff3a4c;
+    border-color: #ff3a4c;
+    color: #ffffff;
+}
+
+.inputSearch, .inputSearch:hover, .inputSearch:focus {
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 30px;
+    line-height: 1.5;
+    color: #333333;
+    padding: 14px 18px 14px;
+    transition: .5s;
+    border: none;
+    background: #f6f6f6;
+}
+
+/* page 404 (end) */
