@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli:400,800,900');
 @import url('https://fonts.googleapis.com/css?family=Caveat');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 .dropdown:hover > .dropdown-menu { 
     display: block; 
 } 
@@ -844,3 +845,116 @@ padding-top: 100px;
 .whiteCase{
     background-color:white;
 }
+
+/*news page (start)*/
+.newsImg {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.newsTitle {
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+.newsTitle a {
+    color: #333333;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 1.25;
+    font-family: Muli, sans-serif;
+    transition: .5s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.newsTitle a:hover {
+    text-decoration: none;
+    color: #e6282c;
+}
+
+.newsDesc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.75;
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    color: #646464;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+}
+
+.newsButton {
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    background: #04E2F6;
+    padding: 14px 48px 14px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 14px;
+    transition: .5s;
+}
+
+.newsButton:hover {
+    text-decoration: none;
+    color: #e6282c;
+}
+
+.newsIcons {
+    text-align: right;
+}
+
+.newsIcons a {
+    font-size: 1rem;
+    margin-left: 13px;
+    margin-right: 13px;
+    color: #646464;
+    transition: .5s;
+}
+
+.newsIcons a:hover {
+    color: #ff3a4c;
+}
+
+.newsFooter {
+    margin-top: 40px;
+    color: #000000;
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+}
+
+.newsFooter .newsDate {
+    color: #000;
+    transition: .5s;    
+}
+
+.newsFooter .newsDate:hover {
+    color: #e6282c;
+    text-decoration: none;
+}
+
+.newsFooter .newsAuthor {
+    color: #000;
+    transition: .5s;    
+}
+
+.newsFooter .newsAuthor:hover {
+    color: #04e2f6;
+    text-decoration: none;
+}
+
+.newsFooter .newsComment {
+    color: #e6282c;
+    margin-left: 8px;
+    transition: .5s;
+}
+
+.newsFooter .newsComment:hover {
+    color: #777777;
+    text-decoration: none;
+}
+/*news page (end)*/
