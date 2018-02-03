@@ -43,6 +43,14 @@ a.nav-item.nav-link.active, .navbar-light .navbar-nav .active>.nav-link, .navbar
     border-color: #ff3a4c;
     color: #ffffff;
 }
+
+/* fixed slider */
+.textSlider, .buttonsSlider {
+    margin-bottom: 150px;
+}
+/* fixed slider end */
+
+
 .mainSlider{
     font-family: 'Muli', sans-serif;
     color: #ffffff;
@@ -56,7 +64,6 @@ a.nav-item.nav-link.active, .navbar-light .navbar-nav .active>.nav-link, .navbar
     letter-spacing: -4px;
     word-spacing: normal;
     text-transform: none;
-    
 }
 
 .descSlider {
@@ -80,6 +87,7 @@ a.nav-item.nav-link.active, .navbar-light .navbar-nav .active>.nav-link, .navbar
     max-width: 10px;
     background: white;
     transition: .5s;
+    opacity: 0;
 
 }
 .carousel-indicators--round li:hover{
