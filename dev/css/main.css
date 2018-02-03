@@ -367,6 +367,78 @@ font-weight: 800;
     margin-top: 15px;
 }
 
+/* index page block cherryProjects (start) */
+.cherryProjects {
+    background: #04E2F6;
+    padding-top: 140px;
+    padding-bottom: 2px;
+}
+
+.cherryHead h3 {
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 400;
+    font-family: Caveat, handwriting;
+    letter-spacing: 0px;
+    text-align: inherit;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.cherryHead h2 {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Muli, sans-serif;
+    letter-spacing: 0px;
+    text-align: inherit;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.cherryBlocks {
+    height: 345px;
+}
+
+.cherryBlock1 {
+    background-image: url('../img/projectterm1.jpg');
+    background-size: cover;
+}
+
+.cherryBlock2 {
+    background-image: url('../img/projectterm2.jpg');
+    background-size: cover;
+}
+
+.cherryBlock3 {
+    background-image: url('../img/projectterm3.jpg');
+    background-size: cover;
+}
+
+.cherryBlock4 {
+    background-image: url('../img/projectterm4.jpg');
+    background-size: cover;
+}
+
+.cherryBlock5 {
+    background-image: url('../img/projectterm5.jpg');
+    background-size: cover;
+}
+
+.cherryBlock6 {
+    background-image: url('../img/projectterm6.jpg');
+    background-size: cover;
+}
+
+.cherryBlock1:hover, .cherryBlock2:hover, .cherryBlock3:hover, .cherryBlock4:hover, .cherryBlock5:hover, .cherryBlock6:hover {
+    background: #1ee59c;
+}
+
+
+
+/* index page block cherryProjects (end)*/
+
 .buttonAbout {
     border: 1px solid;
     border-color: #04e2f6;
