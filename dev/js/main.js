@@ -40,3 +40,17 @@ $('#carouselExampleIndicators').mouseout(function () {
   })
 })
 // slider logic (end)
+
+// cherryProjects logic (end)
+$('.cherryBlocks').mouseover(function () {
+  $('.cherryBody').css({
+    "opacity": "1",
+  })
+})
+
+$('.cherryBlocks').mouseout(function () {
+  $('.cherryBody').css({
+    "opacity": "0",
+  })
+})
+// cherryProjects logic (end)
