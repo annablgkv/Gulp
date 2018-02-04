@@ -43,6 +43,7 @@ a.nav-item.nav-link.active, .navbar-light .navbar-nav .active>.nav-link, .navbar
     color: #ffffff;
     padding: 14px 48px 14px;
     transition: .5s;
+    cursor:pointer;
 }
 .btnContacs:hover{
     background: #ff3a4c;
@@ -117,6 +118,7 @@ a.nav-item.nav-link.active, .navbar-light .navbar-nav .active>.nav-link, .navbar
     transition: .8s;
     margin-bottom: 25px;
     margin-top: 15px;
+    cursor:pointer;
 }
 .btnDonate:hover{
     background: #fff;
