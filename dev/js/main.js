@@ -41,9 +41,9 @@ $('#carouselExampleIndicators').mouseout(function () {
 })
 // slider logic (end)
 
-// cherryProjects logic (end)
+// cherryProjects logic (star)
 $('.cherryBlocks').mouseover(function () {
-  $('.cherryBody').css({
+  $('.cherryBody', this).css({
     "opacity": "1",
   })
 })
